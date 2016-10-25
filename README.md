@@ -7,7 +7,7 @@ Cloudlus server for Fuelcycle.org and Cyclist
 ============================================
 
 - something like: `./cloudlus -addr=http://cycrun.fuelcycle.org serve &> serve.log &` -> relaunch http://cycrun.fuelcycle.org if not working try with cycrun.fuelcycle.org:80 
-- `launch.sh N` -> launch N workor for fuelcycle.org cloudlus
+- `launch.sh N` -> launch N worker for fuelcycle.org cloudlus
 - `worker-x` -> folder where fuelcycle worker works
 - `cyc-cde.tar.gz` worker base software
 - removing all Month calculation : `ls -al |grep XxX |grep zip |cut -d":" -f2 |cut -d" " -f2 |xargs rm`
